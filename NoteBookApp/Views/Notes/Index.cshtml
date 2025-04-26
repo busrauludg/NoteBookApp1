@@ -1,0 +1,25 @@
+﻿@model IEnumerable<NoteBookApp.Models.Note>
+@{
+    ViewData["Title"] = "Notes List";
+}
+<h2>Notes List</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            @* <th>Category</th> *@
+            <th>Summary</th>
+            <th>Oluşturulma Tarihi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var note in Model)
+        {
+            <tr>
+                <td>@note.Title</td>
+                <td>@note.Content</td>
+                <td>@note.CreatedDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            </tr>
+        }
+    </tbody>
+</table>
