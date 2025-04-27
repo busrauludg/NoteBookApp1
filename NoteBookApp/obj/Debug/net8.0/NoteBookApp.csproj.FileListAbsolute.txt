@@ -125,3 +125,4 @@ C:\Users\Büşra\Documents\GitHub\NoteBookApp1\NoteBookApp\bin\Debug\net8.0\runt
 C:\Users\Büşra\Documents\GitHub\NoteBookApp1\NoteBookApp\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Büşra\Documents\GitHub\NoteBookApp1\NoteBookApp\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Büşra\Documents\GitHub\NoteBookApp1\NoteBookApp\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Büşra\Documents\GitHub\NoteBookApp1\NoteBookApp\obj\Debug\net8.0\NoteBookApp.sourcelink.json

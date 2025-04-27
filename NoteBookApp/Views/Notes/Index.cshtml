@@ -9,7 +9,7 @@
             <th>Title</th>
             @* <th>Category</th> *@
             <th>Summary</th>
-            <th>Oluşturulma Tarihi</th>
+            <th>CreatedDate</th>
         </tr>
     </thead>
     <tbody>
@@ -19,6 +19,16 @@
                 <td>@note.Title</td>
                 <td>@note.Content</td>
                 <td>@note.CreatedDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            
+                <td>
+                    <a asp-action="Delete" asp-route-id="@note.Id" class="btn btn-danger">
+                        Sil
+                    </a>
+
+                    @* <button href="@Url.Action("Delete","Notes",new {id=note.Id})"class="btn btn-outline-danger">
+                        Delete
+                    </button> *@
+                </td>
             </tr>
         }
     </tbody>
