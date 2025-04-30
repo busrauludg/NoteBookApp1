@@ -1,12 +1,85 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\views\\notes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\views\\notes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\views\\notes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\models\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Views\\Notes\\Index.cshtml",
+              "RelativeDocumentMoniker": "NoteBookApp\\Views\\Notes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Views\\Notes\\Index.cshtml",
+              "RelativeToolTip": "NoteBookApp\\Views\\Notes\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T11:34:19.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Views\\Notes\\Details.cshtml",
+              "RelativeDocumentMoniker": "NoteBookApp\\Views\\Notes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Views\\Notes\\Details.cshtml",
+              "RelativeToolTip": "NoteBookApp\\Views\\Notes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T10:58:46.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "NoteBookApp\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "NoteBookApp\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:48:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Models\\Note.cs",
+              "RelativeDocumentMoniker": "NoteBookApp\\Models\\Note.cs",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Models\\Note.cs",
+              "RelativeToolTip": "NoteBookApp\\Models\\Note.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:16:28.143Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -11,7 +11,9 @@
          DateTime.Now.Day,
          DateTime.Now.Hour,
          DateTime.Now.Minute,
-         DateTime.Now.Second); 
-        public DateTime? UpdateDate { get; set; }
+         DateTime.Now.Second
+        );
+
+        public DateTime? UpdateDate { get; set; }//// Nullable olmalı, çünkü başlangıçta update yapılmamış olabilir.
     }
 }

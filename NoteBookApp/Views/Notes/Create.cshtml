@@ -1,4 +1,4 @@
-﻿@model NoteBookApp.Models.Note
+﻿@model Note
 @{
     ViewData["Title"] = "Create Note";
 }
@@ -12,21 +12,10 @@
         <label for="Content">Content</label>
         <textarea class="form-control" id="Content" name="Content" rows="3" required></textarea>
     </div>
-    @* <div class="form-group">
-        <label for="Category">Category</label>
-        <input type="text" class="form-control" id="Category" name="Category" required />
-    </div> *@
     <br />
 
     <button type="submit" class="btn btn-primary">Create</button>
 </form>
-@* @if (TempData["SuccessMessage"] != null)
-{
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        @TempData["SuccessMessage"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-} *@
 
 @{
     // Eğer SuccessMessage varsa, ekranda göster
@@ -37,6 +26,6 @@
 {
     <div class="alert alert-success">
         @successMessage
-        <a href="@Url.Action("Index", "Notes")" class="alert-link">Buraya tıklayarak Notlar sayfasına gidin.</a>
+        <a href="@Url.Action("Index", "Notes")" class="alert-link">Click here to go to the Notes page.</a>
     </div>
 }

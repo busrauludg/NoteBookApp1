@@ -1,0 +1,17 @@
+﻿@model Note
+@{
+    ViewData["Title"] = "Details Page";
+}
+<h1>
+    Detail Page
+</h1>
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Content</p>
+    <p><strong>Oluşturulma Tarihi:</strong>@Model.CreatedDate.ToString("dd.MM.yyyy HH:mm")</p>
+    @if(Model.UpdateDate!=null)
+    {
+        <p><strong>Güncelleme Tarihi:</strong>@Model.UpdateDate?.ToString("dd.MM.yyyy HH:mm")</p>
+    }
+</div>
+<a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>

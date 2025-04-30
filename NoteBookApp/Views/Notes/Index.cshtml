@@ -1,4 +1,4 @@
-﻿@model IEnumerable<NoteBookApp.Models.Note>
+﻿@model IEnumerable<Note>
 @{
     ViewData["Title"] = "Notes List";
 }
@@ -7,7 +7,6 @@
     <thead>
         <tr>
             <th>Title</th>
-            @* <th>Category</th> *@
             <th>Summary</th>
             <th>CreatedDate</th>
         </tr>
@@ -19,15 +18,20 @@
                 <td>@note.Title</td>
                 <td>@note.Content</td>
                 <td>@note.CreatedDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
-            
                 <td>
                     <a asp-action="Delete" asp-route-id="@note.Id" class="btn btn-danger">
-                        Sil
-                    </a>
-
-                    @* <button href="@Url.Action("Delete","Notes",new {id=note.Id})"class="btn btn-outline-danger">
                         Delete
-                    </button> *@
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@note.Id" class="btn btn-warning">
+                        Edit
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@note.Id" class="btn btn-primary">
+                        Details
+                    </a>
                 </td>
             </tr>
         }
