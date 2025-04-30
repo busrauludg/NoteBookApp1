@@ -5,6 +5,7 @@ namespace NoteBookApp.Models
     public class NotebookAppDbContext :DbContext
     {
         public DbSet<Note> Notes {  get; set; }
+        public DbSet<Category> Categories { get; set; }
         
         public NotebookAppDbContext(DbContextOptions<NotebookAppDbContext> options):base(options) 
         {

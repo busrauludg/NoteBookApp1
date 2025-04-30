@@ -27,7 +27,7 @@ namespace NoteBookApp.Controllers
             {
                 _context.Add(note);
                 await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Note saved successfully.Şimdi başarıyla ındexe gidebilirsin";
+                TempData["SuccessMessage"] = "Note saved successfully.Now you can successfully navigate to the index";
                 return RedirectToAction(nameof(Create));
             }
             return View(note);

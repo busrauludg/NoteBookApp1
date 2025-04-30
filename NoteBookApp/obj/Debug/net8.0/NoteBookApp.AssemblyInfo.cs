@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NoteBookApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5699003adf927aee3d9f5a130c86b642c5acf127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+711970868b921822d1903afc9a06a1b51f86d045")]
 [assembly: System.Reflection.AssemblyProductAttribute("NoteBookApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NoteBookApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
