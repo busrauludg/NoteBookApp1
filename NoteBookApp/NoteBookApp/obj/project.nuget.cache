@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8N8H9KCt++Y=",
+  "dgSpecHash": "QmXn16L0+Rc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp.csproj",
+  "projectFilePath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\NoteBookApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Büşra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Büşra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

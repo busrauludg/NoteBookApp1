@@ -18,14 +18,7 @@
 </form>
 
 @{
-    // Eğer SuccessMessage varsa, ekranda göster
     var successMessage = TempData["SuccessMessage"] as string;
 }
 
-@if (!string.IsNullOrEmpty(successMessage))
-{
-    <div class="alert alert-success">
-        @successMessage
-        <a href="@Url.Action("Index", "Notes")" class="alert-link">Click here to go to the Notes page.</a>
-    </div>
-}
+

@@ -11,8 +11,8 @@ using NoteBookApp.Models;
 namespace NoteBookApp.Migrations
 {
     [DbContext(typeof(NotebookAppDbContext))]
-    [Migration("20250425081837_not")]
-    partial class not
+    [Migration("20250512144720_geriyüklenen")]
+    partial class geriyüklenen
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NoteBookApp.Migrations
 {
     /// <inheritdoc />
-    public partial class not : Migration
+    public partial class geriyüklenen : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

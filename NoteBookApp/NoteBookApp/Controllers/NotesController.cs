@@ -27,8 +27,8 @@ namespace NoteBookApp.Controllers
             {
                 _context.Add(note);
                 await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Note saved successfully.Şimdi başarıyla ındexe gidebilirsin";
-                return RedirectToAction(nameof(Create));
+                TempData["SuccessMessage"] = "Note saved successfully.Now you can successfully go to index";
+                return RedirectToAction(nameof(Index));
             }
             return View(note);
         }
@@ -42,12 +42,12 @@ namespace NoteBookApp.Controllers
 
             return View(notes);
         }
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
             var note = await _context.Notes
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (note == null)
@@ -59,7 +59,7 @@ namespace NoteBookApp.Controllers
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmend(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var note = await _context.Notes.FindAsync(id);
             if (note == null)

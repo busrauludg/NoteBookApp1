@@ -2532,11 +2532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp.csproj",
+      "projectUniqueName": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\NoteBookApp.csproj",
       "projectName": "NoteBookApp",
-      "projectPath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp.csproj",
+      "projectPath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\NoteBookApp.csproj",
       "packagesPath": "C:\\Users\\Büşra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\obj\\",
+      "outputPath": "C:\\Users\\Büşra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Büşra\\AppData\\Roaming\\NuGet\\NuGet.Config",
