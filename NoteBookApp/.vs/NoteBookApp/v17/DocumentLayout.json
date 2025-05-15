@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\notebookapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEF0E02C-BF4C-47A4-A1CE-9AD9245F05FF}|Repositories\\Repositories.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\repositories\\concrete\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF0E02C-BF4C-47A4-A1CE-9AD9245F05FF}|Repositories\\Repositories.csproj|solutionrelative:repositories\\concrete\\noterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\notebookapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7345E3C2-B145-4E37-8339-5E484A393E7C}|NoteBookApp\\NoteBookApp.csproj|solutionrelative:notebookapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CEF0E02C-BF4C-47A4-A1CE-9AD9245F05FF}|Repositories\\Repositories.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\repositories\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEF0E02C-BF4C-47A4-A1CE-9AD9245F05FF}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479A83BA-0AEB-4113-8131-9269DE725A81}|NoteBookAppp\\NoteBookAppp.csproj|c:\\users\\b\u00FC\u015Fra\\documents\\github\\notebookapp1\\notebookapp\\notebookappp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479A83BA-0AEB-4113-8131-9269DE725A81}|NoteBookAppp\\NoteBookAppp.csproj|solutionrelative:notebookappp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NotesController.cs",
-              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\Controllers\\NotesController.cs",
-              "RelativeDocumentMoniker": "NoteBookApp\\Controllers\\NotesController.cs",
-              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\Controllers\\NotesController.cs",
-              "RelativeToolTip": "NoteBookApp\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGIAAABAAAAAAAAAAA==",
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Repositories\\Concrete\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Concrete\\NoteRepository.cs",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Repositories\\Concrete\\NoteRepository.cs",
+              "RelativeToolTip": "Repositories\\Concrete\\NoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:26:28.07Z",
+              "WhenOpened": "2025-05-15T14:24:02.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\Program.cs",
-              "RelativeDocumentMoniker": "NoteBookApp\\Program.cs",
-              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookApp\\Program.cs",
-              "RelativeToolTip": "NoteBookApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Title": "INoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Repositories\\Interfaces\\INoteRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\INoteRepository.cs",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\Repositories\\Interfaces\\INoteRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\INoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T20:13:59.825Z"
+              "WhenOpened": "2025-05-15T14:23:59.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookAppp\\Program.cs",
+              "RelativeDocumentMoniker": "NoteBookAppp\\Program.cs",
+              "ToolTip": "C:\\Users\\B\u00FC\u015Fra\\Documents\\GitHub\\NoteBookApp1\\NoteBookApp\\NoteBookAppp\\Program.cs",
+              "RelativeToolTip": "NoteBookAppp\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:31:02.652Z",
+              "EditorCaption": ""
             }
           ]
         }
